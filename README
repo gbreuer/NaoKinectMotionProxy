@@ -1,22 +1,28 @@
  +---------------------------------------------------------------------------------+
- |  This file is part of the KinectMotionRecorder library.                         |
- |										   |
- |  KinectMotionRecorder is free software: you can redistribute it and/or modify   |
+ |  This file is part of the NaoKinectMotionProxy library.                         |
+ |										                                                                       |
+ |  NaoKinectMotionProxy is free software: you can redistribute it and/or modify   |
  |  it under the terms of the GNU General Public License as published by           |
  |  the Free Software Foundation, either version 3 of the License, or              |
  |  (at your option) any later version.                                            |
- |          									   |
- |  KinectMotionRecorder is distributed in the hope that it will be useful,        |
+ |          									                                                              |
+ |  NaoKinectMotionProxy is distributed in the hope that it will be useful,        |
  |  but WITHOUT ANY WARRANTY; without even the implied warranty of                 |
  |  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                  |
- |  GNU General Public License for more details.				   |
- |										   |
- |  You should have received a copy of the GNU General Public License		   |
- |  along with KinectMotionRecorder.  If not, see <http://www.gnu.org/licenses/>.  |
+ |  GNU General Public License for more details.				                               |
+ |										                                                                       |
+ |  You should have received a copy of the GNU General Public License		            |
+ |  along with NaoKinectMotionProxy.  If not, see <http://www.gnu.org/licenses/>.  |
  +---------------------------------------------------------------------------------+
 
-This project provides a simple code library that can be used to connect to the Microsoft Kinect
-using SDK v. 1.0 released January 2012 and record skeleton motion over time that can be applied
-to other projects such as my NaoKinectMotionProxy.
+This project provides a simple code library that can be used to play back motions recorded using
+another one of my projects, the KinectXMLMotionRecorder(found at the link below), with Aldebaran
+Robotic's Nao humanoid robot so motions recorded in humans can be played back using the Nao rather
+than having to program the robot using proprietary software.
+
+You will likely need Aldebaran's Naoqi.NET .dll, available only from Aldebaran, to do anything
+useful with this code.
 
 In-line documentation is provided for the majority of the code.
+
+KinectXMLMotionRecorder: https://github.com/gbreuer/KinectXMLMotionRecorder
